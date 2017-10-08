@@ -14,22 +14,30 @@
  *= require_self
  */
 
-.nav-top {
-  height: 50px;
-  width: 100%;
-  background-color: black;
-  position: fixed;
+body {
+  background: url(https://umad.com/img/2016/11/hotel-pool-wallpaper-background-13076-13531-hd-wallpapers.jpg);
+  background-size: cover;
 }
 
-.nav-top li {
-  display: inline-block;
+li {
+  font-family: 'Russo One', sans-serif;
   font-size: 20px;
-  margin: 20px
-  border-left: 1px solid white;
-  text-decoration: none;
-  color: white;
 }
 
-li:visited {
-  color: white;
+body {
+  padding-left: 25px;
+  padding-top: 60px;
+}
+
+h1, h3, p {
+  font-family: 'Kanit', sans-serif;
+}
+
+.box {
+  width: 400px;
+  border: 1px solid white;
+  background: rgba(255,255,255,0.8);
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
 }

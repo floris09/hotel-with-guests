@@ -5,18 +5,23 @@
       <li><%= msg %></li>
     <% end %>
   </ul>
-
+<div>
   <%= f.label :name %>
   <%= f.text_field :name %>
-
+</div>
+<div>
   <%= f.label :age %>
   <%= f.number_field :age %>
-
+</div>
+<div>
   <%= f.label :country %>
   <%= f.text_field :country %>
-
+</div>
+<div>
   <%= f.label :hotel_id %>
   <%= f.collection_select(:hotel_id, Hotel.all, :id, :name) %>
-
-  <%= f.submit "Create" %>
+</div>
+<div>
+  <%= f.submit (@guest.new_record? ? "Create" : "Update") %>
+</div>
 <% end %>

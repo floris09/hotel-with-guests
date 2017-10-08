@@ -1,5 +1,7 @@
+<div class='box'>
 <h1>Hotels:</h1>
 
 <% @hotels.each do |hotel| %>
-<p><%= link_to hotel.name, hotel_path(hotel.id) %>, <%= hotel.location %></p>
+<p><%= link_to hotel.name + ", " + hotel.location , hotel_path(hotel.id), :class => "btn btn-primary" %></p>
 <% end %>
+</div>

@@ -1,9 +1,14 @@
-
+<div class='box'>
 <h1>Guest Details</h1>
 <p><%= @guest.name %></p>
 <p><%= @guest.country %></p>
 <p><%= @guest.age %></p>
-<p><%= link_to @guest.hotel.name, hotel_path(@guest.hotel.id) %></p>
 
-<%= link_to "[Edit details]", edit_guest_path(@guest.id)%>
-<%= link_to "[Delete]", guest_path(@guest.id), method: :delete, data: { confirm: "Are you sure?" } %>
+<h3>Hotel</h3>
+<p><%= link_to @guest.hotel.name, hotel_path(@guest.hotel.id), :class => "btn btn-primary" %></p>
+
+
+<hr>
+<%= link_to "Edit details", edit_guest_path(@guest.id), :class => 'btn btn-warning'%>
+<%= link_to "Delete", guest_path(@guest.id),:class => 'btn btn-danger', method: :delete, data: { confirm: "Are you sure?" } %>
+</div>
