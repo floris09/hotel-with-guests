@@ -9,6 +9,14 @@
   </head>
 
   <body>
+    <div class=nav-top>
+      <ul>
+        <li><%= link_to "Hotels", hotels_path %></li>
+        <li><%= link_to "Guests", guests_path %></li>
+        <l1><%= link_to "Add guest", new_guest_path %></li>
+      </ul>
+    </div>
+
     <%= yield %>
   </body>
 </html>
