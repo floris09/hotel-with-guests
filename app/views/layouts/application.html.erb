@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>HotelWithGuests</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,13 +11,17 @@
   </head>
 
   <body>
-    <div class=nav-top>
-      <ul>
-        <li><%= link_to "Hotels", hotels_path %></li>
-        <li><%= link_to "Guests", guests_path %></li>
-        <l1><%= link_to "Add guest", new_guest_path %></li>
-      </ul>
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><%= link_to "Hotels", hotels_path %></li>
+      <li><%= link_to "Guests", guests_path %></li>
+      <li><%= link_to "Add guest", new_guest_path %></li>
+    </ul>
     </div>
+  </nav>
 
     <%= yield %>
   </body>
