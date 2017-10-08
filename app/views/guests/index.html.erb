@@ -1,5 +1,8 @@
+
+<div class='box'>
 <h1>Guests</h1>
 
 <% @guests.each do |guest| %>
-<p><%= link_to guest.name, guest_path(guest.id) %></p>
+<p><%= link_to guest.name, guest_path(guest.id), :class => "btn btn-default" %></p>
 <% end %>
+</div>
