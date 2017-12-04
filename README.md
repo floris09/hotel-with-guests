@@ -6,10 +6,10 @@ Simple website made for learning the basics of Ruby on Rails
   * Add/delete guests to/from hotels
   * Edit guest details  
 
-<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.20.png" alt="hotels" width="45%" align="left"/>
-<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.43.png" alt="hotels" width="45%" align="left"/>
-<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.58.png" alt="hotels" width="45%" align="left"/>
-<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.47.34.png" alt="hotels" width="45%" align="left"/>
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.20.png" alt="hotels" width="45%" align="left" margin-bottom="10" />
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.43.png" alt="hotels" width="45%" align="left" margin-bottom="10" />
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.58.png" alt="hotels" width="45%" align="left" margin-bottom="10" />
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.47.34.png" alt="hotels" width="45%" align="left" margin-bottom="10" />
 
 <br clear="left" />
 
