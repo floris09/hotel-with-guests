@@ -1,24 +1,42 @@
-# README
+# Hotels/guests
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple website made for learning the basics of Ruby on Rails
 
-Things you may want to cover:
+**Features:**
+  * Add/delete guests to/from hotels
+  * Edit guest details  
 
-* Ruby version
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.20.png" alt="hotels" width="45%" align="left"/>
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.43.png" alt="hotels" width="45%" align="left"/>
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.46.58.png" alt="hotels" width="45%" align="left"/>
+<img src="https://github.com/floris09/hotel-with-guests/blob/master/app/assets/images/Screen%20Shot%202017-12-04%20at%2016.47.34.png" alt="hotels" width="45%" align="left"/>
 
-* System dependencies
+<br clear="left" />
 
-* Configuration
 
-* Database creation
+## Database Structure
 
-* Database initialization
+1. Guests
+  * name: string
+  * country: string
+  * age: integer
+  * hotel_id: integer
 
-* How to run the test suite
+2. Hotels
+  * name: integer
+  * location: string
+  * stars: integer
+  * price: integer
 
-* Services (job queues, cache servers, search engines, etc.)
+## Running Locally
 
-* Deployment instructions
+Make sure you have [Ruby](https://www.ruby-lang.org/en/) and [Bundler](http://bundler.io/) installed.
 
-* ...
+```bash
+git clone git@github.com:floris09/hotel-with-guests.git
+cd hotel-with-guests
+bundle install
+rails db:create db:migrate db:seed
+rails server
+```
+
